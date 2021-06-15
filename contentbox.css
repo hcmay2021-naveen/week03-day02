@@ -1,0 +1,23 @@
+body{
+    padding: 0px;
+    margin: 150px;
+    text-align: center;
+    background-color: lightblue;
+}
+div{
+    width: 350px;
+    border: 5px solid black;
+    padding: 5px;
+    margin: 10px;
+    float: left;
+    text-align:centers;
+    }
+    h3{
+        background-color: lightcoral;
+    }
+    button{
+        background-color: lightseagreen;
+    }
+    h2{
+        background-color: orangered;
+    }

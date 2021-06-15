@@ -1,0 +1,21 @@
+body{
+  background-image: url(ii/flight.jfif); background-size: cover;
+}
+form{
+  background-color: black
+}
+table{
+  color: antiquewhite;
+  padding: 1px;
+}
+button{
+  background-color: green;
+  color: aliceblue;
+}
+div{
+  padding: 0%;
+  width: 1px;
+}
+input{
+  padding: 2px 0;
+}

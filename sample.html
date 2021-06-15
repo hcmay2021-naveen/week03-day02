@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Booking</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <link href="sample.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        
+        <center><h1>Let the journey begin</h1>
+        <form>
+            <table>
+                <tr>
+                 <td>retrun</td>
+                <td><input type="radio" name="Return" value="return" /></td>
+                 <td>Oneway</td>
+                 <td><input type="radio" name="one way" value="one way" /></td> 
+                 <td>Multi-city</td>
+                <td><input type="radio" name="Multi-city" value="multi-city" /></td>
+                </tr>
+            </table>
+        </form>
+        <form>
+            <table>
+                <tr>
+                    <td>From</td> 
+                    <td>To</td>
+                    <td>Depart</td>
+                    <td>Return</td>
+                    <td>Class</td>
+                    <td>Travellers</td>
+                </tr>
+                <div>
+                <tr>
+                    <td><input type="search" name="from" value="" /></td>
+                    <td><input type="search" name="to" value="" /></td>
+                    <td><input type="date" name="depart" /></td>
+                    <td><input type="date" name="return" /></td>
+                    <td><select name="class" >
+                        <option value="">choose</option>
+                        <option value="Econmay">Econmay</option>
+                        <option value="Business">Business</option>
+                        <option value="First class">First class</option>
+                    </select>
+                    </td>
+                    <td><select name="Travellers">
+                        <option value="">choose</option>
+                        <option value="one">one</option>
+                        <option value="two">two</option>
+                        <option value="three">three</option>
+                    </select>
+                    </td>
+                </tr>
+                </div>
+                <tr>
+                   <td><input type="checkbox">Add near by airpots</td>
+                   <td><input type="checkbox">Direct flights</td>
+
+
+
+                    <td>
+                        <button type="button" name="Search for flights">Search for flights</button>
+                    </td>
+                </tr>
+             </table>
+        </form>
+        </center>
+    </body>
+ </html>
